@@ -5,6 +5,8 @@ import HomePage from "./pages/HomePage";
 import Banner from "./components/banner/Banner";
 import MoviePage from "./pages/MoviePage";
 import MovieDetailsPage from "./pages/MovieDetailsPage";
+import Navbar from "./components/navbar/Navbar";
+import Contact from "./components/contact/Contact";
 function App() {
   return (
     <Fragment>
@@ -16,6 +18,8 @@ function App() {
               <>
                 <Banner></Banner>
                 <HomePage />
+                <Navbar />
+                <Contact />
               </>
             }
           ></Route>
